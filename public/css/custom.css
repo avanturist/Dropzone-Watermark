@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #1f648b;
+}
+.container{
+    background: #FFFFFF;
+    padding: 10px;
+}
+.header a{
+    font-size: 12pt;
+    background: #1f648b;
+    color: #FFFFFF;
+    padding: 5px;
+}
+.header a:hover{
+    text-decoration: underline;
+}
+
+i{
+    color: red;
+    font-size: 10pt;
+}
+h3{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+td{
+    width: 50%;
+
+}
+.img-thumbnail{
+    width: 20%;
+}
+.top{
+    border-top:3px solid #1f648b ;
+    margin-top: 15pt;
+}
+/* - dropzone css -*/
+
+.page-heading {
+
+    -webkit-font-smoothing: antialiased;
+    font-family: "Segoe UI Light", "Arial", serif;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+#my-dropzone .message {
+    font-family: "Segoe UI Light", "Arial", serif;
+    font-weight: 600;
+    color: #1f648b;
+    font-size: 20pt;
+    padding: 40px;
+}
+
+#my-dropzone{
+    border: 3px dashed #1f648b;
+    background: white;
+    border-radius: 5px;
+    min-height: 250px;
+}
+
+/* -end dropzone css-*/
+
+/*slider*/
+
+.img-slider{
+    width: 50%!important;
+}
+.mySlides {display: block}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 50%;
+    border-radius: 30px 0 0 30px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+
+    background-color: rgba(0,0,0,0.1);
+}
+
+
